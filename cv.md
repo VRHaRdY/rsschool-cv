@@ -12,3 +12,27 @@ HTML, CSS, SCSS, JS, C++, Java
 ---
 #### Contacts:
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/vladradkevich) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/243710993790795776/) [![Instagram](https://img.shields.io/badge/Instagram-%23C13584.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/_vladradkevich_/) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:=vlad.radkevich28@gmail.com) 
+### Code examples
+```
+const merge2Arrays = (firstArray, secondArray) => {
+    const sortArray = [];
+    let i =0, j = 0;
+
+    while (i < firstArray.length && j < secondArray.length) {
+        if (firstArray[i] < secondArray[j]) {
+            sortArray.push(firstArray[i]);
+            i++;
+        } else {
+            sortArray.push(secondArray[j]);
+            j++;
+        }
+    }   
+    return [...sortArray, ...firstArray.slice(i), ...secondArray.slice(j)];
+};
+```
+---
+### Courses:
+* HTML & CSS (result school)
+* JS (Udemy, in progress)
+* YT course (Vladilen Minin, Glo academy and more)
+* CS50 course
