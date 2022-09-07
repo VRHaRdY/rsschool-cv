@@ -54,5 +54,103 @@
         </div>
     </div>
     <hr>
+    <div class="socials">
+        <div class="container">
+            <div class="socials__inner">
+                <div class="social__resource">
+                    <p><strong>SOCIAL MEDIA</strong></p>
+                    <ul>
+                        <li>
+                            <img src="img/telegram.png" alt="" width="30px">
+                            <a href="https://t.me/vladradkevich">Telegram</a>                         
+                        </li>
+                        <li>
+                            <img src="img/instagram.png" alt="" width="30px">
+                            <a href="https://www.instagram.com/_vladradkevich_/">Instagram</a> 
+                        </li>
+                        <li>
+                            <img src="img/vk.png" alt="" width="30px">
+                            <a href="https://vk.com/vladradkevich68">VK</a>
+                        </li>
+                        
+                        <li>
+                            <img src="img/discord.png" alt="" width="30px">
+                            <a href="https://discordapp.com/users/243710993790795776/">Discord</a>
+                       </li>
+                       <li>
+                            <img src="img/github.png" alt="" width="30px">
+                            <a href="https://github.com/VRHaRdY">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="skills">
+        <div class="container">
+            <div class="skills__inner">
+                <div class="skills__list">
+                    <div class="working__skills">
+                        <p><strong>WORKING SKILLS</strong></p>
+                        <ul>
+                            <li>
+                                <img src="img/html.png" alt="" width="30px">
+                                <p>HTML</p>
+                            </li>
+                            <li>
+                                <img src="img/css.png" alt="" width="30px">
+                                <p>CSS</p>
+                            </li>
+                            <li>
+                                <img src="img/js.png" alt="" width="30px">
+                                <p>JS</p>                            
+                            </li>
+                            <li>
+                                <img src="img/c++.png" alt="" width="30px">
+                                <p>C++</p>                           
+                            </li>
+                           <li>
+                                <img src="img/java.png" alt="" width="30px">
+                                <p>Java</p>   
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="language__skills">
+                        <p><strong>LANGUAGE</strong></p>
+                        <ul>
+                            <li class="lang">
+                                <img src="img/eng.png" alt="" width="30px">
+                                <p>English A2+</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="code__example">
+                    <p><strong>CODE EXAMPLE</strong></p>
+                    <div class="code">
+                        <p><pre>
+const merge2Arrays = (firstArray, secondArray) => {
+    const sortArray = [];
+    let i =0, j = 0;
+
+    while (i < firstArray.length && j < secondArray.length) {
+        if (firstArray[i] < secondArray[j]) {
+            sortArray.push(firstArray[i]);
+            i++;
+        } else {
+            sortArray.push(secondArray[j]);
+            j++;
+        }
+    }   
+    return [...sortArray, 
+            ...firstArray.slice(i), 
+            ...secondArray.slice(j)];
+};</pre></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
