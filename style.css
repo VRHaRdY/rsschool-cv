@@ -3,6 +3,7 @@ body {
     padding-top: 20px; 
     max-width: 800px;
     font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
 }
 
 a {
@@ -60,9 +61,10 @@ a:hover {
     transition: 0.5s;
 }
 
-a img {
+a img, li img {
     margin-right: 10px;
 }
+
 
 pre {
     margin: 0 0 0 0;
