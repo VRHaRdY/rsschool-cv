@@ -87,6 +87,7 @@ a img, li img {
     align-items: center;
     display: flex;
     font-size: 15px;
+    padding-top: 10px;
 }
 
 .info__inner .text{

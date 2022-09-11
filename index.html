@@ -133,12 +133,12 @@
                 <div class="code__example">
                     <p><strong>CODE EXAMPLE</strong></p>
                     <div class="code">
-<pre>const merge2Arrays = (firstArray, secondArray) =&gt {
+<pre>const merge2Arrays = (firstArray, secondArray) =&gt; {
     const sortArray = [];
     let i =0, j = 0;
 
-    while (i &lt firstArray.length &amp&amp j &lt secondArray.length) {
-    if (firstArray[i] &lt secondArray[j]) {
+    while (i &lt; firstArray.length &amp;&amp; j &lt; secondArray.length) {
+    if (firstArray[i] &lt; secondArray[j]) {
         sortArray.push(firstArray[i]);
         i++;
     } else {
@@ -187,7 +187,7 @@
                             <p>Vitebsk State University (applied mathematics)</p>
                         </li>
                         <li class="education__info">
-                            <p>HTML & CSS course by Result School</p>
+                            <p>HTML &amp; CSS course by Result School</p>
                         </li>
                         <li class="education__info">
                             <p>JS cource by Udemy</p>
