@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="inner__logo">
+                    <img src="img/logo1v1.jpg" class="logo__img" alt="">
+                </div>
+                <div class="inner__text">
+                    <h1 class="text__name">
+                        Vlad Radkevich
+                    </h1>
+                    <p class="text__info">
+                        Frontend-developer
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="info">
+        <div class="container">
+            <div class="info__inner">
+                <div class="phone text">
+                    <img src="img/phone.png" alt="" width="30px">
+                    <p>
+                        <a href="tel:+375295192594">+375(29)5192594</a>
+                    </p>
+                </div>
+                <div class="mail text">
+                    <img src="img/email.png " alt="" width="30px">
+                    <p>
+                        <a href="mailto:vlad.radkevich28@gmail.com">vlad.radkevich28@gmail.com</a>
+                    </p>
+                </div>
+                <div class="location text">
+                    <img src="img/location.png" alt="" width="30px">
+                    <p>
+                        Belarus, Orsha
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="socials">
+        <div class="container">
+            <div class="socials__inner">
+                <div class="social__resource">
+                    <p><strong>SOCIAL MEDIA</strong></p>
+                    <ul class="media__list">
+                        <li>
+                            <a href="https://t.me/vladradkevich">
+                                <img src="img/telegram.png" alt="" width="30px">Telegram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/_vladradkevich_/">
+                                <img src="img/instagram.png" alt="" width="30px">Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://vk.com/vladradkevich68">
+                                <img src="img/vk.png" alt="" width="30px">VK
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://discordapp.com/users/243710993790795776/">
+                                <img src="img/discord.png" alt="" width="30px">Discord</a>
+                       </li>
+                       <li>
+                            <a href="https://github.com/VRHaRdY">
+                                <img src="img/github.png" alt="" width="30px">GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="skills">
+        <div class="container">
+            <div class="skills__inner">
+                <div class="skills__list">
+                    <div class="working__skills">
+                        <p><strong>WORKING SKILLS</strong></p>
+                        <ul>
+                            <li>
+                                <img src="img/html.png" alt="" width="30px">
+                                <p>HTML</p>
+                            </li>
+                            <li>
+                                <img src="img/css.png" alt="" width="30px">
+                                <p>CSS</p>
+                            </li>
+                            <li>
+                                <img src="img/js.png" alt="" width="30px">
+                                <p>JS</p>
+                            </li>
+                            <li>
+                                <img src="img/c++.png" alt="" width="30px">
+                                <p>C++</p>
+                            </li>
+                           <li>
+                                <img src="img/java.png" alt="" width="30px">
+                                <p>Java</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="language__skills">
+                        <p><strong>LANGUAGE</strong></p>
+                        <ul>
+                            <li class="lang">
+                                <img src="img/eng.png" alt="" width="30px">
+                                <p>English A2+</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="code__example">
+                    <p><strong>CODE EXAMPLE</strong></p>
+                    <div class="code">
+<pre>const merge2Arrays = (firstArray, secondArray) =&gt; {
+    const sortArray = [];
+    let i =0, j = 0;
+
+    while (i &lt; firstArray.length &amp;&amp; j &lt; secondArray.length) {
+    if (firstArray[i] &lt; secondArray[j]) {
+        sortArray.push(firstArray[i]);
+        i++;
+    } else {
+        sortArray.push(secondArray[j]);
+        j++;
+    }
+    return [...sortArray,
+            ...firstArray.slice(i),
+            ...secondArray.slice(j)];
+}</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="other">
+        <div class="container">
+            <div class="other__inner">
+                <div class="hobby__list">
+                    <p><strong>HOBBY</strong></p>
+                    <ul>
+                        <li class="hobbby__info">
+                            <img src="img/car.png" alt="" width="30px">
+                            <p>Cars</p>
+                        </li>
+                        <li class="hobbby__info">
+                            <img src="img/sport.png" alt="" width="30px">
+                            <p>Workout</p>
+                        </li>
+                        <li class="hobbby__info">
+                            <img src="img/book.png" alt="" width="30px">
+                            <p>Books reading</p>
+                        </li>
+                        <li class="hobbby__info">
+                            <img src="img/travelling.png" alt="" width="30px">
+                            <p>Travelling</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="education__list">
+                    <p><strong>EDUCATION AND COURCES</strong></p>
+                    <ul>
+                        <li class="education__info">
+                            <p>Vitebsk State University (applied mathematics)</p>
+                        </li>
+                        <li class="education__info">
+                            <p>HTML &amp; CSS course by Result School</p>
+                        </li>
+                        <li class="education__info">
+                            <p>JS cource by Udemy</p>
+                        </li>
+                        <li class="education__info">
+                            <p>Node.js cource by iTechArt Group</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

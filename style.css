@@ -1,0 +1,128 @@
+body {
+    margin: auto; 
+    padding-top: 20px; 
+    max-width: 800px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
+}
+
+a {
+    display: flex;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.text a{
+    display: inherit;
+}
+
+.phone {
+    max-width: 140px;
+    margin: auto;
+}
+
+.mail {
+    max-width: 200px;
+    margin: auto;
+}
+
+.hr {
+    background-color: #9f0a9c;
+    height: 3px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    max-width: 130px;
+    padding-left: 10px;
+    display: flex;
+    line-height: 40px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+li p {
+    margin: 0;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #9f0a9c;
+    transition: 0.5s;
+}
+
+a img, li img {
+    margin-right: 10px;
+}
+
+
+.code {
+    margin: 0 0 0 0;
+    padding: 10px;
+}
+
+.header__inner {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.logo__img {
+    max-height: 150px;
+    border-radius: 75px;
+}
+
+.info__inner {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.info__inner .text{
+    width: 33%;
+}
+
+.lang {
+    max-width: 150px;
+}
+
+.skills__inner {
+    display: flex;
+}
+
+.skills__list {
+    min-width: 40%;
+}
+
+.code__example {
+    text-align: left;
+}
+
+.code {
+    border-radius: 20px;
+    background-color: rgb(235, 235, 235);
+}
+
+.other__inner {
+    display: flex;
+}
+
+.hobby__list {
+    width: 40%;
+}
+
+.education__info, .hobbby__info {
+   max-width: 100%; 
+}
